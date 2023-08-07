@@ -1,0 +1,32 @@
+{
+    "images": [
+        {
+            "path": "./assets/gallery/DSC_0001.jpg",
+            "description": "Монтаж и обслуживание СКС"
+        },
+        {
+            "path": "./assets/gallery/DSC_0003.jpg",
+            "description": "Монтаж и обслуживание СКС"
+        },
+        {
+            "path": "./assets/gallery/DSC_0005.jpg",
+            "description": "Монтаж и обслуживание СКС"
+        },
+        {
+            "path": "./assets/gallery/IMG_0824.jpg",
+            "description": "Монтаж и обслуживание СКС"
+        },
+        {
+            "path": "./assets/gallery/IMG_16632.png",
+            "description": "Монтаж и обслуживание СКС"
+        },
+        {
+            "path": "./assets/gallery/screen_site.png",
+            "description": "Монтаж и обслуживание СКС"
+        },
+        {
+            "path": "./assets/gallery/screen_site2.jpg",
+            "description": "Монтаж и обслуживание СКС"
+        }
+    ]
+}

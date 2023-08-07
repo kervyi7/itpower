@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>baseline-call-24px (1)</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main_page" transform="translate(-103.000000, -7158.000000)">
+            <g id="Group-4" transform="translate(99.000000, 7154.000000)">
+                <g id="baseline-call-24px-(1)">
+                    <polygon id="Path" points="0 0 32 0 32 32 0 32"></polygon>
+                    <path d="M26.68,20.5066667 C25.04,20.5066667 23.4533333,20.24 21.9733333,19.76 C21.5066667,19.6 20.9866667,19.72 20.6266667,20.08 L18.5333333,22.7066667 C14.76,20.9066667 11.2266667,17.5066667 9.34666667,13.6 L11.9466667,11.3866667 C12.3066667,11.0133333 12.4133333,10.4933333 12.2666667,10.0266667 C11.7733333,8.54666667 11.52,6.96 11.52,5.32 C11.52,4.6 10.92,4 10.2,4 L5.58666667,4 C4.86666667,4 4,4.32 4,5.32 C4,17.7066667 14.3066667,28 26.68,28 C27.6266667,28 28,27.16 28,26.4266667 L28,21.8266667 C28,21.1066667 27.4,20.5066667 26.68,20.5066667 Z" id="Path" fill="#E23207"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

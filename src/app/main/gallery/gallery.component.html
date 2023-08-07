@@ -1,0 +1,35 @@
+<div [ngClass]="{'full-main-host': isFullScreen, 'main-host': !isFullScreen}">
+    <div [ngClass]="{'full-main-block': isFullScreen, 'main-block': !isFullScreen}">
+        <div class="section-name" *ngIf="!isFullScreen">{{'SOLUTION.SOLUTION' | translate}}</div>
+        <div [ngClass]="{'full-big-img-block': isFullScreen, 'big-img-block': !isFullScreen}">
+            <img src={{imageSelected.path}} [ngClass]="{'full-big-img': isFullScreen, 'big-img': !isFullScreen}" />
+            <div class="big-img-control">
+                <img class="control-icon" src="./assets/img/path1.svg" (click)="back()" />
+                <img class="control-icon" src="./assets/img/path2.svg" (click)="next()" />
+            </div>
+            <div class="img-panel">
+                <div class="description">{{imageSelected.description}}
+                    <img class="panel-icon" src="./assets/img/fullscreen.png" (click)="onFullScreen()" />
+                    <img class="panel-icon" src="{{isPlay ? './assets/img/play.png' : './assets/img/pause.png'}}"
+                        (click)="onPlay()" />
+                </div>
+            </div>
+        </div>
+        <div class="slider-block">
+            <div class="small-img-control">
+                <img class="control-icon" src="./assets/img/arrow1.png" (click)="back()" />
+                <img class="control-icon" src="./assets/img/arrow2.png" (click)="next()" />
+            </div>
+            <div class="slider">
+                <div class="slider-wrap" [style.left]="getLeft()">
+                    <div *ngFor="let img of gallery.images" class="small-img-block">
+                        <div class="small-img-block-content" [class.img-selected]="isSetSelected(img)">
+                                <img class="slider-img" [src]="img.path"
+                                (click)="setSelected(img)"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

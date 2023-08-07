@@ -1,0 +1,181 @@
+<div class="menu-panel" *ngIf="isMobile" [ngClass]="{'hide-menu': !isOpenMenu, 'show-menu' : isOpenMenu}">
+    <div class="navbar-panel">
+        <img class="menu-mobile" src="./assets/img/close.svg" (click)="closeMenu()" />
+    </div>
+    <div class="link-block-mobile">
+        <button mat-button [ngx-scroll-to]="aboutRef" class="link-mobile"
+            [ngClass]="{'link-select': isSelected('About')}" [ngx-scroll-to-offset]="-0"
+            (click)="selectLink('About')">{{'MAIN.ABOUT' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="servicesRef" class="link-mobile"
+            [ngClass]="{'link-select': isSelected('Services')}"
+            (click)="selectLink('Services')">{{'MAIN.SERVICES' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="advantagesRef" class="link-mobile"
+            [ngClass]="{'link-select': isSelected('Adventages')}"
+            (click)="selectLink('Adventages')">{{'MAIN.ADVANTAGES' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="galleryRef" class="link-mobile"
+            [ngClass]="{'link-select': isSelected('Project')}"
+            (click)="selectLink('Project')">{{'MAIN.PROJECTS' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="customersRef" class="link-mobile"
+            [ngClass]="{'link-select': isSelected('Customers')}"
+            (click)="selectLink('Customers')">{{'MAIN.CUSTOMERS' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="priceRef" class="link-mobile"
+            [ngClass]="{'link-select': isSelected('Pricing')}"
+            (click)="selectLink('Pricing')">{{'MAIN.PRICE' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="contactRef" class="link-mobile"
+            [ngClass]="{'link-select': isSelected('Contact')}"
+            (click)="selectLink('Contact')">{{'MAIN.CONTACT' | translate}}</button>
+        <div class="lang-block-mobile">
+            <button mat-button class="link-mobile" (click)="changeTranslate('en')">{{'MAIN.ENG' | translate}}</button>
+            <button mat-button class="link-mobile" (click)="changeTranslate('ru')">{{'MAIN.RU' | translate}}</button>
+            <button mat-button class="link-mobile" (click)="changeTranslate('ua')">{{'MAIN.UA' | translate}}</button>
+        </div>
+    </div>
+</div>
+
+<div class="navbar-mobile" *ngIf="isMobile">
+    <img [ngx-scroll-to]="headerRef" (click)="selectLink('Header')" class="logo-mobile"
+    src="./assets/img/logo_new.svg" />
+    <img class="menu-mobile" src="./assets/img/menu.svg" (click)="openMenu()" />
+</div>
+
+<div [@openClose]="getState()" class="toolbar-color" *ngIf="!isMobile">
+    <div class="link-block-object" *ngIf="!isMobile">
+        <img [ngx-scroll-to]="headerRef" (click)="selectLink('Header')" class="logo"
+        src="./assets/img/logo_new.svg" />
+        <div class="link-block">
+            <button mat-button [ngx-scroll-to]="aboutRef" class="link" [ngClass]="{'link-select': isSelected('About')}"
+                (click)="selectLink('About')">{{'MAIN.ABOUT' | translate}}</button>
+            <button mat-button [ngx-scroll-to]="servicesRef" class="link"
+                [ngClass]="{'link-select': isSelected('Services')}"
+                (click)="selectLink('Services')">{{'MAIN.SERVICES' | translate}}</button>
+            <button mat-button [ngx-scroll-to]="advantagesRef" class="link"
+                [ngClass]="{'link-select': isSelected('Adventages')}"
+                (click)="selectLink('Adventages')">{{'MAIN.ADVANTAGES' | translate}}</button>
+            <button mat-button [ngx-scroll-to]="galleryRef" class="link"
+                [ngClass]="{'link-select': isSelected('Project')}"
+                (click)="selectLink('Project')">{{'MAIN.PROJECTS' | translate}}</button>
+            <button mat-button [ngx-scroll-to]="customersRef" class="link"
+                [ngClass]="{'link-select': isSelected('Customers')}"
+                (click)="selectLink('Customers')">{{'MAIN.CUSTOMERS' | translate}}</button>
+            <button mat-button [ngx-scroll-to]="priceRef" class="link"
+                [ngClass]="{'link-select': isSelected('Pricing')}"
+                (click)="selectLink('Pricing')">{{'MAIN.PRICE' | translate}}</button>
+            <button mat-button [ngx-scroll-to]="contactRef" class="link"
+                [ngClass]="{'link-select': isSelected('Contact')}"
+                (click)="selectLink('Contact')">{{'MAIN.CONTACT' | translate}}</button>
+            <div class="lang-block">
+                <button mat-button class="lang" (click)="changeTranslate('en')">{{'MAIN.ENG' | translate}}</button>
+                <button mat-button class="lang" (click)="changeTranslate('ru')">{{'MAIN.RU' | translate}}</button>
+                <button mat-button class="lang" (click)="changeTranslate('ua')">{{'MAIN.UA' | translate}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="content">
+    <div class="mobile-master">
+        <div class="main" #headerRef>
+            <!-- <mat-toolbar class="toolbar"> -->
+            <div class="link-block-object" *ngIf="!isMobile">
+                <img [ngx-scroll-to]="headerRef" (click)="selectLink('Header')" class="logo-static"
+                    src="./assets/img/logo_new.svg" />
+                <div class="link-block">
+                    <button mat-button [ngx-scroll-to]="aboutRef" class="link"
+                        [ngClass]="{'link-select': isSelected('About')}"
+                        (click)="selectLink('About')">{{'MAIN.ABOUT' | translate}}</button>
+                    <button mat-button [ngx-scroll-to]="servicesRef" class="link"
+                        [ngClass]="{'link-select': isSelected('Services')}"
+                        (click)="selectLink('Services')">{{'MAIN.SERVICES' | translate}}</button>
+                    <button mat-button [ngx-scroll-to]="advantagesRef" class="link"
+                        [ngClass]="{'link-select': isSelected('Adventages')}"
+                        (click)="selectLink('Adventages')">{{'MAIN.ADVANTAGES' | translate}}</button>
+                    <button mat-button [ngx-scroll-to]="galleryRef" class="link"
+                        [ngClass]="{'link-select': isSelected('Project')}"
+                        (click)="selectLink('Project')">{{'MAIN.PROJECTS' | translate}}</button>
+                    <button mat-button [ngx-scroll-to]="customersRef" class="link"
+                        [ngClass]="{'link-select': isSelected('Customers')}"
+                        (click)="selectLink('Customers')">{{'MAIN.CUSTOMERS' | translate}}</button>
+                    <button mat-button [ngx-scroll-to]="priceRef" class="link"
+                        [ngClass]="{'link-select': isSelected('Pricing')}"
+                        (click)="selectLink('Pricing')">{{'MAIN.PRICE' | translate}}</button>
+                    <button mat-button [ngx-scroll-to]="contactRef" class="link"
+                        [ngClass]="{'link-select': isSelected('Contact')}"
+                        (click)="selectLink('Contact')">{{'MAIN.CONTACT' | translate}}</button>
+                    <div class="lang-block">
+                        <button mat-button class="lang"
+                            (click)="changeTranslate('en')">{{'MAIN.ENG' | translate}}</button>
+                        <button mat-button class="lang"
+                            (click)="changeTranslate('ru')">{{'MAIN.RU' | translate}}</button>
+                        <button mat-button class="lang"
+                            (click)="changeTranslate('ua')">{{'MAIN.UA' | translate}}</button>
+                    </div>
+                </div>
+            </div>
+            <!-- </mat-toolbar> -->
+            <div class="img-block-mobile">
+                <img src="./assets/img/lamp.jpg" class="main-image"/>
+            </div>
+            <div class="text-block-mobile">
+                <div class="texts-mobile">
+                    <div class="text1-mobile">{{'MAIN.FIND_SOLUTION' | translate}}</div><br />
+                    <div class="text2-mobile">{{'MAIN.IT' | translate}}</div>
+                    <div class="button-block-mobile">
+                        <button mat-raised-button class="button-mobile" [ngx-scroll-to]="contactRef"
+                            (click)="selectLink('Contact')">{{'MAIN.ORDER_SERVICE' | translate}}
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div #aboutRef>
+            <app-about></app-about>
+        </div>
+        <div #servicesRef>
+            <app-services></app-services>
+        </div>
+        <div #advantagesRef>
+            <app-advantages></app-advantages>
+        </div>
+        <div #galleryRef>
+            <!-- <app-gallery></app-gallery> -->
+            <app-new-gallery></app-new-gallery>
+        </div>
+        <div #customersRef>
+            <app-customers></app-customers>
+        </div>
+        <div #priceRef>
+            <app-price></app-price>
+        </div>
+        <div #contactRef>
+            <app-contact></app-contact>
+        </div>
+    </div>
+    <div class="basement">
+        <div class="main-basement-block">
+            <div class="basement-logo-email">
+                <a href="https://wiki.itpower.com.ua">
+                    <div class="icon-wiki"></div>
+                </a>
+                <a href="mailto:support@itpower.com.ua">
+                    <div class="basement-font basement-email">{{'CONTACT.EMAIL' | translate}}</div>
+                </a>
+
+            </div>
+            <div class="basement-font">
+                <div>{{'CONTACT.NUMBER' | translate}}</div>
+            </div>
+            <div class="basement-icon">
+                <div class="basement-right">{{'CONTACT.YAREMBLEM' | translate}}</div>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/itpower-ukraine-115446187/">
+                        <div class="icon-ld"></div>
+                    </a>
+                    <a href="https://www.facebook.com/itpower.com.ua">
+                        <div class="icon-fb"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

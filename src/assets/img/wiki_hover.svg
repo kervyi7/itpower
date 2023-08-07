@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="24px" viewBox="0 0 40 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>wiki copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.99937221">
+        <g id="Main_page" transform="translate(-150.000000, -7650.000000)">
+            <g id="wiki-copy" transform="translate(151.000000, 7651.000000)">
+                <polyline id="Path-2" stroke="#E23207" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="38 11.0942794 38 0 0 0 0 22 19 22"></polyline>
+                <text id="wiki" font-family="Montserrat-Medium, Montserrat" font-size="10" font-weight="400" letter-spacing="1.40882361" fill="#FFFFFF">
+                    <tspan x="4" y="15">WIKI</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

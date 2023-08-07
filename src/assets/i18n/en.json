@@ -1,0 +1,97 @@
+{
+    "MAIN": {
+        "ABOUT": "About Us",
+        "SERVICES": "Services",
+        "ADVANTAGES": "Advantages",
+        "PROJECTS": "Projects",
+        "CUSTOMERS": "Customers",
+        "PRICE": "Price",
+        "CONTACT": "Contact",
+        "ENG": "Eng",
+        "RU": "Ru",
+        "UA": "Ua",
+        "DOLLAR_HOUR": "from 12 to 36 $ / hour",
+        "FIND_SOLUTION": "WE ALWAYS FIND THE SOLUTION",
+        "IT": "IT outsourcing | IT security | IP telephony",
+        "ORDER_SERVICE": "ORDER SERVICES"
+    },
+    "ABOUT": {
+        "SECTION_NAME": "ABOUT US",
+        "TEXT1": "ITPower is a team of IT specialists aimed at solving your problems. We provide high-quality services in IP telephony, audit and modernization of IT infrastructure, system administration and security, design and installation of SCS.",
+        "TEXT2": "Our employees have extensive experience in installing, configuring and maintaining software, server and network equipment, which allows them to solve problems as soon as possible and ensure a high level of service provision.",
+        "NAME": "Arthur Ilchuk",
+        "CEO": "CEO of ITPower"
+    },
+    "SERVICES": {
+        "SERVICES": "OUR SERVICES",
+        "IP": "IP telephony",
+        "SIMPLIFICATION": "Simplifying all workflows, making them as efficient and convenient as possible..",
+        "AUDIT": "Audit and modernization",
+        "PROPOSE": "It helps to find weak spots in infrastructure, complex processes that require modernization.",
+        "MONTAGE": "Installation SCS",
+        "MODERN": "Modern design, the unification of communications and comfort in your office.",
+        "IT_SECURITY": "IT security",
+        "CONTROL": "Control risks associated with threats to information security, protecting the integrity of business and customer data.",
+        "CLOUD": "Cloud Decisions",
+        "HELP": "Will help reduce capital costs, minimize security risks, improve resilience.",
+        "SYSTEM": "System Administration",
+        "PROVIDING": "Providing outsourcing services and maintenance of IT infrastructure."
+    },
+    "ADVANTAGES": {
+        "ADVANTAGES": "ADVANTAGES",
+        "AUDIT": "Audit",
+        "SETTINGS": "and setup",
+        "EVERY_SERVER": "Each server that comes in for maintenance undergoes IT audit - identification of bottlenecks and their correction.",
+        "ROUND": "Round-the-clock",
+        "ALL_DAY": "monitoring",
+        "ALWAYS": "We keep an eye on your servers, and if there are any problems, we start to solve them immediately.",
+        "SERVICE": "Service",
+        "MAINTENANCE": "maintenance",
+        "REGULAR": "Regular OS and software upgrades, vulnerability fixes, backups, hardware issues, etc. are performed.",
+        "EXPERIANCE": "Experience",
+        "WE_HAVE": "We have significant experience in this field - more than 10 years.",
+        "SECURITY": "Security",
+        "INFO": "We guarantee the safety of confidential information.",
+        "SOFTWARE": "Software",
+        "STRIVE": "We are committed to the use of free software. First of all, it is an opportunity to reduce your costs."
+    },
+    "SOLUTION": {
+        "SOLUTION": "OUR SOLUTIONS"
+    },
+    "CUSTOMERS": {
+        "CUSTOMERS": "OUR CLIENTS",
+        "SUCCESS": "SUCCESSFULLY LAUNCHED PROJECTS 43+",
+        "COMMENT": "CUSTOMER TESTIMONIALS",
+        "IGOR": "Igor Tretyakov",
+        "CEO": "CEO of SKYCALL",
+        "LOREM": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    "PRICE": {
+        "PRICE": "PRICE LIST",
+        "BASIC": "CUSTOM SUPPORT",
+        "PRICE1": "12 ",
+        "UAH_M": " USD / month",
+        "UAH_H": " USD / hour",      
+        "DESCRIPTION1": "Customized requests",
+        "STANDART": "STANDART SUPPORT",
+        "PRICE2": "115 ",
+        "DESCRIPTION2": "Remote support, monitoring of the IT system, planned professional work",
+        "PREMIUM": "PREMIUM SUPPORT",
+        "PRICE3": "370 ",
+        "DESCRIPTION3": "Remote support, IT system operation monitoring, scheduled professional work, engineer visits, swap equipment"
+    },
+    "CONTACT": {
+        "CONTACT": "CONTACT US",
+        "LOREM": "In our work, we adhere to the main principle - the less you see and hear us, the better we work. After all, if your IT system is stable, there are no failures and problems - we do our job perfectly.",
+        "KYIV": "Kiev, Ukraine",
+        "NUMBER": "+38 (044) 360-5-360",
+        "EMAIL": "support@itpower.com.ua",
+        "SKYPE": "ITPower",
+        "FORM": "FEEDBACK FORM",
+        "NAME": "Your name",
+        "Y_EMAIL": "Your E-mail",
+        "MASSAGE": "Message",
+        "SEND": "Send A Message",
+        "YAREMBLEM": "© 2019 ITPOWER. All Rights Reserved."
+    }
+}

@@ -1,0 +1,49 @@
+<div class="main-block">
+  <div class="section-name">{{'CONTACT.CONTACT' | translate}}</div>
+  <div class="main-contact-block">
+    <div class="text-block">
+      <div class="text1">{{'CONTACT.LOREM' | translate}}</div><br />
+      <div class="shape-text">
+        <img class="image1" src="./assets/img/location_ico.svg" />
+        <span class="text2">{{'CONTACT.KYIV' | translate}}</span><br />
+      </div>
+      <div class="shape-text">
+        <img class="image2" src="./assets/img/call_ico.svg" />
+        <span class="text2">{{'CONTACT.NUMBER' | translate}}</span><br />
+      </div>
+      <div class="shape-text">
+        <img class="image3" src="./assets/img/email_ico.svg" />
+        <a href="mailto:support@itpower.com.ua">
+          <span class="text2">{{'CONTACT.EMAIL' | translate}}</span></a>
+      </div>
+      <div class="shape-text">
+        <img class="image4" src="./assets/img/telegram_ico.svg" />
+        <a href="https://t.me/itpower_ua"><span class="text2">{{'CONTACT.SKYPE' | translate}}</span></a>
+      </div>
+    </div>
+    <div class="contact-form-block">
+      <form #contactForm="ngForm" (ngSubmit)="onSave()" action="mail.php" method="POST">
+        <div class="name-block">{{'CONTACT.FORM' | translate}}</div>
+        <div class="input-block">
+          <mat-form-field class="matInput"><input matInput type="text" placeholder="{{'CONTACT.NAME' | translate}}"
+              [(ngModel)]="userContact.name" name="name"/></mat-form-field>
+          <mat-form-field class="matInput"><input matInput type="email" placeholder="{{'CONTACT.Y_EMAIL' | translate}}"
+              [(ngModel)]="userContact.email" name="email" /></mat-form-field>
+          <mat-form-field class="matInput"><input matInput type="email" placeholder="{{'CONTACT.MASSAGE' | translate}}"
+              [(ngModel)]="userContact.text" name="text" #message maxlength="120" />
+            <mat-hint align="end">{{message.value.length}} / 120</mat-hint>
+          </mat-form-field>
+          <div class="box-icon-result">
+            <mat-icon *ngIf="iconOk" class="icon-result icon-resul-green">done</mat-icon>
+            <mat-icon *ngIf="iconError" class="icon-result icon-resul-red">error_outline</mat-icon>
+            <div>
+              <button mat-raised-button class="send-message-button" type="submit"
+                [disabled]="isValid()">{{'CONTACT.SEND' | translate}}
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
