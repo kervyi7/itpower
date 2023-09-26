@@ -1,27 +1,28 @@
 # ITPOWER
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+ITPower is a team of IT specialists aimed at solving your problems. We provide high-quality services in IP telephony, audit and modernization of IT infrastructure, system administration and security, design and installation of SCS.
 
-## Development server
+## Description:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is the landing page of the ITPower company developed by a designer and front-end developer (me). The page is working now [here](https://itpower.com.ua/), but soon will change design and new one will in new repository.
 
-## Code scaffolding
+## Technologies: 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- HTML5
+- CSS
+- TypeScript
+- Angular 7.3.5
+- Angular Material
+- Microsoft Azure
 
-## Build
+## Duties:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Develop a landing page according to a given design.
+- Support this in future if it will need.
 
-## Running unit tests
+## Key Results:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Improved my skills in using Angular.
+- Improved my skills in creating adaptive page.
+- Worked with third party libraries.
+- Learned how to support a website over a long period of time.
