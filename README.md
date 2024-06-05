@@ -13,7 +13,6 @@ This is the landing page of the ITPower company developed by a designer and fron
 - TypeScript
 - Angular 7.3.5
 - Angular Material
-- Microsoft Azure
 
 ## Duties:
 
