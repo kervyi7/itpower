@@ -4,7 +4,7 @@ ITPower is a team of IT specialists aimed at solving your problems. We provide h
 
 ## Description:
 
-This is the landing page of the ITPower company developed by a designer and front-end developer (me). The page is working now [here](https://itpower.com.ua/), but soon will change design and new one will in new repository.
+This is the landing page for the ITPower company, developed by a designer and front-end developer (me). The page is currently live [here](https://itpower.com.ua/) and features a new design available in the [new repositoty](https://github.com/kervyi7/itpower2.0).
 
 ## Technologies: 
 
@@ -17,11 +17,11 @@ This is the landing page of the ITPower company developed by a designer and fron
 ## Duties:
 
 - Develop a landing page according to a given design.
-- Support this in future if it will need.
+- Support this in future when customer needs.
 
 ## Key Results:
 
-- Improved my skills in using Angular.
+- Enhanced my skills in using Angular.
 - Improved my skills in creating adaptive page.
 - Worked with third party libraries.
 - Learned how to support a website over a long period of time.
